@@ -1,14 +1,14 @@
 :root{
-  --bg: #f4f6fb;
+  --bg: #f6f7fb;
   --card: #ffffff;
   --muted: #6b7280;
-  --accent-1: #6366f1;
+  --accent-1: #6b7cff;
   --accent-2: #8b5cf6;
   --accent-gradient: linear-gradient(135deg,var(--accent-1) 0%,var(--accent-2) 100%);
   --success: #43e97b;
-  --danger: #ef4444;
+  --danger: #ff6b6b;
   --glass: rgba(255,255,255,0.75);
-  --shadow: 0 8px 24px rgba(0,0,0,0.06);
+  --shadow: 0 12px 40px rgba(15,23,42,0.06);
 }
 
 *{box-sizing:border-box;}
@@ -17,7 +17,7 @@ body{
   margin:0;
   font-family: "Inter", system-ui, sans-serif;
   background:var(--bg);
-  color:#1e1e1e;
+  color:#111827;
   -webkit-font-smoothing:antialiased;
 }
 
@@ -25,7 +25,7 @@ body{
 .app-header{
   background:var(--accent-gradient);
   color:white;
-  padding:22px 24px;
+  padding:18px 24px;
   box-shadow:0 4px 14px rgba(0,0,0,0.08);
 }
 .app-header .container{
@@ -40,10 +40,10 @@ body{
 .user-actions .user-name{font-weight:600;font-size:14px;}
 
 .logout-btn{
-  padding:10px 16px;
+  padding:8px 14px;
   background:rgba(255,255,255,0.12);
   color:white;
-  border:1px solid rgba(255,255,255,0.25);
+  border:2px solid rgba(255,255,255,0.15);
   border-radius:10px;
   cursor:pointer;
   transition:.2s;
@@ -107,16 +107,16 @@ body{
   background:linear-gradient(135deg,#eef2ff 0%,#f6eefb 100%);
 }
 .login-card{
-  background:var(--glass);
+  background:var(--card);
   backdrop-filter:blur(8px);
-  border-radius:16px;
+  border-radius:calc(var(--radius) + 4px);
   padding:36px;
   max-width:420px;width:100%;
-  box-shadow:0 12px 32px rgba(0,0,0,0.1);
+  box-shadow:0 20px 40px rgba(15,23,42,0.06);
 }
 .login-title{
   color:var(--accent-1);
-  font-size:28px;
+  font-size:22px;
   margin:0 0 6px;
 }
 .login-sub{
@@ -134,7 +134,7 @@ textarea{
   width:100%;
   padding:12px 14px;
   border-radius:10px;
-  border:2px solid #e5e9f0;
+  border:1px solid #eef2f7;
   font-size:15px;
   color:#222;
   transition:.2s;
