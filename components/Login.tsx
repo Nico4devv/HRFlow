@@ -1,6 +1,6 @@
 // @ts-ignore
 import React, { useState } from 'react';
-import { api } from '../api';
+import { api } from '../frontend/api';
 
 interface LoginProps {
     onLoginSuccess: (token: string, user: any) => void;

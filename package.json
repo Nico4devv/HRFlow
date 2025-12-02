@@ -1,0 +1,34 @@
+{
+  "name": "hrflow-backend",
+  "version": "1.0.0",
+  "main": "frontend/src/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node frontend/src/server.js",
+    "dev": "tsx frontend/src/server.ts",
+    "dev:ui": "vite",
+    "build:ui": "vite build"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^8.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.5.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "tsx": "^4.10.0",
+    "typescript": "^5.5.0",
+    "vite": "^7.2.6"
+  }
+}

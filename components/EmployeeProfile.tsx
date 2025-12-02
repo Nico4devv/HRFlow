@@ -1,7 +1,7 @@
 // @ts-ignore
 import React, { useEffect, useState } from 'react';
-import { api } from '../api';
-import { Employee, UserRole, UpdateEmployeeRequest } from '../types';
+import { api } from '../frontend/api';
+import { Employee, UserRole, UpdateEmployeeRequest } from '../frontend/types';
 
 interface EmployeeProfileProps {
     employeeId: number;
