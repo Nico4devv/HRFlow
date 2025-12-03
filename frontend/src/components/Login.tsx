@@ -69,7 +69,7 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
                     </div>
 
                     {error && (
-                        <div style={{ padding: 12, background: '#fee', color: '#c33', borderRadius: 8, marginBottom: 14, fontSize: 14 }}>
+                        <div style={{ padding: 12, background: 'rgba(39, 39, 39, 1)', color: '#c33', borderRadius: 8, marginBottom: 14, fontSize: 14 }}>
                             ⚠️ {error}
                         </div>
                     )}

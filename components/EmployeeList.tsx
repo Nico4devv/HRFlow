@@ -64,7 +64,7 @@ export const EmployeeList: React.FC<EmployeeListProps> = ({ userRole, onSelectEm
                         onClick={() => setShowAddModal(true)}
                         style={{
                             padding: '12px 24px',
-                            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                            background: 'linear-gradient(135deg, #667eea 0%, #353336ff 100%)',
                             color: 'white',
                             border: 'none',
                             borderRadius: '8px',
@@ -109,7 +109,7 @@ export const EmployeeList: React.FC<EmployeeListProps> = ({ userRole, onSelectEm
             }}>
                 <div style={{ overflowX: 'auto' }}>
                     <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-                        <thead style={{ background: '#f8f9fa' }}>
+                        <thead style={{ background: '#4d4d4dff' }}>
                         <tr>
                             <th style={{ padding: '16px', textAlign: 'left', fontWeight: '600', color: '#666' }}>Name</th>
                             <th style={{ padding: '16px', textAlign: 'left', fontWeight: '600', color: '#666' }}>E-Mail</th>
@@ -257,7 +257,7 @@ const AddEmployeeModal: React.FC<AddEmployeeModalProps> = ({ onClose, onSuccess 
             zIndex: 1000
         }}>
             <div style={{
-                background: 'white',
+                background: 'black',
                 borderRadius: '12px',
                 padding: '30px',
                 maxWidth: '500px',
@@ -348,7 +348,7 @@ const AddEmployeeModal: React.FC<AddEmployeeModalProps> = ({ onClose, onSuccess 
                     </div>
 
                     {error && (
-                        <div style={{ marginTop: '15px', padding: '10px', background: '#fee', color: '#c33', borderRadius: '6px' }}>
+                        <div style={{ marginTop: '15px', padding: '10px', background: 'rgba(54, 54, 54, 1)', color: '#c33', borderRadius: '6px' }}>
                             {error}
                         </div>
                     )}

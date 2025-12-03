@@ -92,7 +92,7 @@ export const EmployeeProfile: React.FC<EmployeeProfileProps> = ({ employeeId, us
             </button>
 
             <div style={{
-                background: 'white',
+                background: 'black',
                 borderRadius: '12px',
                 padding: '30px',
                 boxShadow: '0 2px 8px rgba(0,0,0,0.1)'

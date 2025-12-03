@@ -137,7 +137,7 @@ const NavButton: React.FC<NavButtonProps> = ({ active, onClick, icon, label }) =
             onMouseOver={(e) => {
                 if (!active) {
                     e.currentTarget.style.color = '#667eea';
-                    e.currentTarget.style.background = '#f8f9fa';
+                    e.currentTarget.style.background = '#414141ff';
                 }
             }}
             onMouseOut={(e) => {

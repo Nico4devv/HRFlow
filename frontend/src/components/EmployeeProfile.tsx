@@ -193,7 +193,7 @@ const ProfileField: React.FC<ProfileFieldProps> = ({
             ) : (
                 <div style={{
                     padding: '12px',
-                    background: '#f8f9fa',
+                    background: '#4f4f50ff',
                     borderRadius: '8px',
                     color: value ? '#333' : '#999',
                     fontSize: '16px'
